@@ -1,0 +1,24 @@
+.footer
+{
+    padding-bottom: 50px;
+}
+
+.footer-inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    max-width: 290px;
+}
+
+.footer-title p
+{  
+    color: #505050;
+    line-height: 25px;
+}

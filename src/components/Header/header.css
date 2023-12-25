@@ -1,0 +1,41 @@
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.header-inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-nav ul li a
+{
+    color: #000;
+    transition: color .3s;
+}
+
+.header-nav ul li a:hover
+{
+    color: #f2ce18;
+}

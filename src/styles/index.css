@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+a,
+span,
+button
+{
+    display: inline-block;
+    border: none;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000
+}
+
+.container
+{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+

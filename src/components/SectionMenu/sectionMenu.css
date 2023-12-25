@@ -1,0 +1,42 @@
+.section-menu
+{
+    padding: 200px 0;
+}
+
+.menu-title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.menu-title h1
+{
+    font-size: 36px;
+}
+
+.menu-title button
+{
+    color: #000;
+    background-color: #f3cf19;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.menu-title button:active
+{
+    filter: brightness(1.1);
+}
+
+.menu-list
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    justify-content: space-between;
+}
